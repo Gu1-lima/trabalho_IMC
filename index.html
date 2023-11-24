@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+
+            <h2 class="title">Você está saudável?</h2>
+              <div class="result"></div>
+
+            <label for="altura" class="label">Altura</label>
+            <input class="input" type="text" id="altura" placeholder="1.60" required="required">
+            <label for="peso" class="label">Peso</label>
+            <input class="input" type="number" id="peso" placeholder="72" required="required">
+            <label for="pressao" class="label">Pressão Arterial</label>
+            <div class="formPressure">
+                <input class="inputPressure" type="number" id="systolic" placeholder="120 Sistólica" required="required">
+                <input  class="inputPressure" type="number" id="diastolic" placeholder="80 Diastólica"  required="required">
+            </div>
+            <div class="containerBTN">
+                <button class="btn" type="submit">VERIFICAR</button>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
